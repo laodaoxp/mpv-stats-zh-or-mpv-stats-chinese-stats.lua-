@@ -5,8 +5,11 @@ Step 1: Edit the Main Configuration File
 In your mpv.conf file, add or ensure the following line is present. This disables the built-in English stats script to make way for our Chinese version.
 
 ini
+在 `mpv.conf` 中添加：
+```ini
 # 关闭内置统计脚本 [stats.lua] (默认启用)，以使用外部中文版
 # Disable the built-in stats script [stats.lua] (enabled by default) to use the external Chinese version
+```
 load-stats-overlay=no
 
 步骤 2：放置中文版脚本
