@@ -1,44 +1,41 @@
-# mpv-统计-中文或mpv-统计-chinese-stats.lua-
-mpv播放器的中文版统计信息脚本
+<div align="center">
 
-步骤 1：编辑主配置文件
-步骤 1：编辑主配置文件
+# 🎯 mpv-stats-zh
+### 把你的 mpv 统计信息变成中文！
 
-在你的 mpv.conf 文件中，添加或确认以下一行。这行代码会关闭 mpv 内置的英文版统计脚本，为我们的中文版脚本让路。
-在你的mpv.conf文件中，添加或确保有以下行。这将禁用内置的英语统计脚本，以便为我们的中文版本让路。
+[![GitHub license](https://img.shields.io/github/license/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-?style=flat-square)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-?style=flat-square)](https://github.com/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-?style=flat-square)](https://github.com/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-/issues)
+[![Maintenance](https://img.shields.io/badge/维护中-是的-brightgreen?style=flat-square)](https://github.com/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-)
 
-这
-# 关闭内置统计脚本 [stats.lua] (默认启用)，以使用外部中文版
-# 禁用内置的统计脚本 [stats.lua] （默认启用）以使用外部中文版本
-加载统计覆盖=否
+</div>
 
-步骤 2：放置中文版脚本
-步骤 2: 放置中文文本
+---
 
-将我们翻译好的 stats.lua 文件，放入 mpv 的脚本文件夹中。
-将我们的翻译 stats.lua 文件放入 mpv 的 scripts 文件夹。
+## 📖 项目简介
 
-目标位置 / 目的地:
-portable_config/scripts/
+这是一个 **mpv播放器统计信息脚本** 的中文翻译版。  
+原版由 [Argon-](https://github.com/Argon-) 开发，本版本将所有界面文字翻译为中文，方便中文用户使用。
 
-绝对路径示例
+> 🎨 **界面清爽 | 功能完整 | 即装即用**
 
-Windows: C:\Users\你的用户名\AppData\Roaming\mpv\scripts
+---
 
-Linux/macOS: ~/.config/mpv/scripts/
+## ✨ 功能特点
 
-步骤 3：开始享用
-步骤 3：享受吧！
+| 功能 | 说明 |
+|:---|:---|
+| 🌐 **全中文界面** | 所有显示文字、提示信息都翻译为中文 |
+| 🚀 **功能完整** | 保留原版所有功能，无任何删减 |
+| 🎯 **即装即用** | 复制到 scripts 文件夹即可使用 |
+| 🔧 **兼容性好** | 可与任何 mpv 综合配置共存 |
 
-完成以上两步，你的配置就大功告成了！现在，无论你使用的基础综合配置是什么，都可以：
-完成这两个步骤后，您的设置就完成了！现在，无论您使用的是什么基础综合配置，您都可以：
+---
 
-按 i 键：临时查看全中文的播放统计信息。
-按 i：暂时以中文查看播放统计。
+## 📦 安装步骤
 
-按 I (大写) 键：让统计信息常驻屏幕。
-按 Shift + I：将统计数据永久显示在屏幕上。
+### 方法一：快速安装（推荐）
 
-按 1-5 或 0 键：在不同信息页面间切换。
-按1-5或0：在不同的信息页面之间切换。
-
+```bash
+# 1. 下载 stats.lua 文件
+# 2. 放入 mpv 的 scripts 文件夹
