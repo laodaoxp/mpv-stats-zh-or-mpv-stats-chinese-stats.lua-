@@ -8,7 +8,8 @@ Untranslated original English file address: https://github.com/mpv-player/mpv/bl
 
 Step 1: Edit the main configuration file
 In your mpv.conf file, add or confirm the following line. This line disables mpv's built-in English statistics script, making way for our Chinese version script.
-load-stats-overlay=no # Enables mpv's built-in statistics script [stats.lua], default is yes
+
+load-stats-overlay=no          # 启用 mpv 内置的统计信息脚本 [stats.lua]，默认 yes
 
 Step 2: Place the Chinese version script
 
